@@ -1,12 +1,14 @@
-# cars
-##一个有登录功能的汽车信息查看软件
-  标准mvc结构
+# Cars2
+    一个有登录功能的汽车信息查看软件
+
+## 基于springboot框架的后台
+  该项目的主体，分为controller,model，repository三部分，
+  由于逻辑太简单，没有service层。
   
-  使用了Javafx页面框架，没用swing
-  
-  使用了jdbc操作数据库，没用hibernate，mybatis数据层框架
-  
-  数据库建库文件在src/main/resources/createDb.sql
-  
-  配置文件在src/main/resources/db.properties，可以切换成access或mysql
+## 基于javafx与httpClient的客户端
+  它是该项目的一个独立module，位于./javafxClient目录下.
+  是标准的mvc结构。
+
+## 基于html/css/js的网页端
+  尚未开始开发
   
